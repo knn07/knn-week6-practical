@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Donate and be Humane!</title>
+		<style> type="text/css">
+			
+			hr {
+				width: 100%;
+				border: 1px solid #D8C858;
+			}
+			h1,h2 {
+				font-family: sans-serif;    
+				text-align: center;
+			}
+
+			.submit {
+                border: none;
+                background: #FEBB13;
+                color: #222;
+                box-sizing: border-box;
+                width: 30%;
+		     	padding: 5px;
+                font-size: 20px;
+                border: 1px solid #ccc;
+                border-radius: 3px;}
+			
+			.clear {
+                border: none;
+                background: red;
+                color: white;
+                box-sizing: border-box;
+                width: 30%;
+			    padding: 5px;
+                font-size: 20px;
+                border: 1px solid #ccc;
+                border-radius: 3px;}
+
+			 << insert any style CCS code here >>
+	
+		</style>
+	</head>
+	
+	<body bgcolor="#392758">
+		
+		<form action="proc-form.php" method="post" class="form">
+		<div id="divA">
+		<h1>Donate Your Wealth for a Better Tomorrow!</h1>
+
+		<p>
+			Donating to the causes you care about not only benefits the charities themselves, it can be deeply rewarding for you too. Millions of people give to charity on a regular basis to support causes they believe in, as well as for the positive effect it has on their own lives.   
+		</p>
+		
+		<hr/>
+		
+		 <h2>Give Us Your Money</h2>
+            
+        Enter Full Name:<br>
+        <input type="text" name="username"><br>
+		
+	     <br/>
+            
+		Select Section<br>
+        <select name="selectSection">
+            <option value="MA">MA</option>
+            <option value="MA">MB</option>
+            <option value="MA">MD</option>
+            <option value="MA">ME</option>
+            <option value="MA">MF</option>
+        </select>
+
+		
+	     <br/>
+	
+	     <br/><br/>
+			
+		Credit Card Number:<br>
+        <input type="text" name="credit_card_no" placeholder="16 numerical digits"><br>	
+		  <br/>
+            
+        Credit Card Type:<br>
+        MasterCard<input type="radio" name="credit_card_type" value="MasterCard"><br>         
+        Visa<input type="radio" name="credit_card_type" value="Visa"><br>
+
+
+			<p><input type="submit" class="submit" value="Submit" name="proc-form"></p>
+		   	<p><input type="reset" class="clear" value="Clear" />	
+		   	</p>
+		
+		<div class="center">
+			Love All Serve All.
+		</div>
+		</div>
+		</form>
+	</body>
+</html>
