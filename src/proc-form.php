@@ -14,7 +14,7 @@ if(isset($_POST['proc-form'])) {
 	$validate_credit_card_no = $_POST["credit_card_no"];
 	
     //For user name
-	if (empty($_POST["username"]) || empty($_POST["selectSection"]) || empty($validate_credit_card_no) || !preg_match('/^[0-9]{15}$/',$validate_credit_card_no)
+	if (empty($_POST["username"]) || empty($_POST["selectSection"]) || empty($validate_credit_card_no) || !preg_match('/^[0-9]{16}$/',$validate_credit_card_no)
  || empty($_POST["credit_card_type"])){
         echo "Please check if you have fill in your name, section and credit card details.".'<br /><br />';
 		echo "Please re-submit form again - Thank You".'<br /><br />';
